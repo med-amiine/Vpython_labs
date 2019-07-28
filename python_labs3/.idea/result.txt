@@ -1,0 +1,14 @@
+def fact(x):
+    result = 1
+    facthalf = 0.8862
+    if isinstance(x, int) :
+         while x >= 1:
+            result = result * x
+            x = x - 1
+    else :
+       while x/2 > 0.5:
+           print x
+           result = result * x
+           x = x - 1
+       result = result * facthalf
+    return result
