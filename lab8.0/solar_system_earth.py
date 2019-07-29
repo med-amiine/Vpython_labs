@@ -18,7 +18,7 @@ M = 2 * 10 ** 30
 t = 0
 dt = 19 * 3600
 
-# tra = curve(raduis=0.5)
+# tra = curve(radius=0.5)
 ballG.vel = vec(0, 47 * 10 ** 3, 0)
 ballP.vel = vec(0, 35 * 10 ** 3, 0)
 earth.vel = vec(0, 30 * 10 ** 3, 0)
