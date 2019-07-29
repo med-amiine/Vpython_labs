@@ -26,4 +26,7 @@
     <option name="Skip Tests" value="false" />
     <pom-list />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7" project-jdk-type="Python SDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
 </project>
