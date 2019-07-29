@@ -1,3 +1,8 @@
+"""
+* multiple spring
+* __author__ = "Mohammed El Amine Idmoussi"
+* Simulation of multiple spring movements
+"""
 from vpython import *
 
 scene = canvas()

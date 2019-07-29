@@ -1,3 +1,9 @@
+"""
+* spring
+* __author__ = "Mohammed El Amine Idmoussi"
+* Simulation of spring movements
+"""
+
 from vpython import *
 
 scene = canvas()
