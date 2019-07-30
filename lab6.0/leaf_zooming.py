@@ -1,9 +1,14 @@
+"""
+* Zooming on a leaf
+* __author__ = "Mohammed El Amine Idmoussi"
+* plot and Zoom on a particular leaf
+"""
+
 import matplotlib.pyplot as plt
 import random
 
 plt.rcParams['font.size'] = 15
 plt.style.use('classic')
-
 
 max_x = 3.580
 min_x = 1.580
@@ -13,8 +18,8 @@ max_y = 3.828
 
 x = 0
 y = 0
-x1=0
-y1=0
+x1 = 0
+y1 = 0
 p = 0
 list_x = []
 list_y = []
@@ -50,3 +55,4 @@ print(list_y1)
 plt.plot(list_x1, list_y1, ',', color='dodgerblue')
 plt.show()
 print("zooooooooooooooooom")
+

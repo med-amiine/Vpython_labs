@@ -4,7 +4,6 @@
 * Using mathematics formulas and random numbers we can draw a beautiful leaf
 """
 
-
 import matplotlib.pyplot as plt
 import random
 
@@ -13,15 +12,15 @@ plt.style.use('classic')
 
 x = 0
 y = 0
-x1=0
-y1=0
+x1 = 0
+y1 = 0
 p = 0
 list_x = []
 list_y = []
 list_x1 = []
 list_y1 = []
 
-for i in range(10**6):
+for i in range(10 ** 6):
     p = random.randint(0, 101)
     if p == 1:
         x1 = 0
@@ -48,6 +47,4 @@ print(list_y)
 
 plt.plot(list_x, list_y, ',', color='dodgerblue')
 plt.show()
-
-
 
